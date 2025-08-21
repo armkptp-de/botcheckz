@@ -48,7 +48,5 @@ async def search_command(ctx, *, keyword: str):
 
         await ctx.send(file=discord.File(output_file))
 
-TOKEN = os.getenv("MTQwODEyOTA0MDA2NTIzNzAxMg.G4AscY.KQW8VJ3c8ybNUgJqa-eUtv-KvLmV0dlsigyyy0") or "MTQwODEyOTA0MDA2NTIzNzAxMg.G4AscY.KQW8VJ3c8ybNUgJqa-eUtv-KvLmV0dlsigyyy0"
+TOKEN = os.getenv("DISCORD_BOT_TOKEN") or "ใส่โทเคนตรงนี้"
 bot.run(TOKEN)
-
-
