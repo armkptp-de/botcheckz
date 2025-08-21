@@ -61,7 +61,8 @@ async def search_command(ctx, *, keyword: str):
     os.remove(temp_file)
 
 # ใส่ Token ของคุณ
-TOKEN = "MTQwODEyOTA0MDA2NTIzNzAxMg.GsgFHd.Q1gn746ybxkilNCLfhUkx7MFf0HasEbRQoY-N0"
+TOKEN = "MTQwODEyOTA0MDA2NTIzNzAxMg.GJtBIa.hAwnrCMnfsVjKtgvkJycPwX2r1KqUT5RwW_G1c"
 bot.run(TOKEN)
+
 
 
